@@ -1,6 +1,6 @@
 import pokemonData from '../pokemon/pokemonData.json';
 
-export const pokemonList = () => {
+export const PokemonList = () => {
   return (
     <div>
       {pokemonData.map(pokemon => (
@@ -11,6 +11,13 @@ export const pokemonList = () => {
             URL: {pokemon.url}
             {pokemon.id}
           </p>
+          <img
+            src={`https://img.pokemondb.net/artwork/${pokemon.name}.jpg`}
+            width="360"
+            height="336"
+            alt="Bulbasaur artwork by Ken Sugimori"
+            fetchpriority="high"
+          ></img>
         </div>
       ))}
     </div>
