@@ -1,5 +1,5 @@
 import pokemonData from '../pokemon/pokemonData.json';
-
+import styles from './pokemon.module.css';
 export const PokemonList = () => {
   return (
     <div>
