@@ -8,10 +8,7 @@ export const PokemonList = () => {
           <p>ID: {pokemon.id}</p>
           <p>Name: {pokemon.name}</p>
           <p>
-            <a
-              href={`https://pokemondb.net/pokedex/${pokemon.name}`}
-              target="_blank"
-            >
+            <a href={`https://pokemondb.net/pokedex/${pokemon.name}`}>
               <img
                 src={`https://img.pokemondb.net/artwork/${pokemon.name}.jpg`}
                 width="360"
