@@ -1,9 +1,9 @@
-import { PokemonList } from 'pokemon/pokemon';
+import { PokemonList } from 'pokemon/pokemon.jsx';
 
 export const App = () => {
   return (
     <div>
-      <h1>Pokemon List</h1>
+      <h1>PokeDex</h1>
       <PokemonList />
     </div>
   );

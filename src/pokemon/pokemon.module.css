@@ -1,12 +1,24 @@
 .div {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.box {
+.header {
+  display: flex;
+  flex-direction: column;
+  color: aqua;
+  margin: 0;
+}
+
+.box_size {
   margin: 5px;
   border: 5px double black;
   padding: 10px;
+}
+
+.box {
+  composes: box_size;
   text-align: center;
   font-size: 15px;
   font-weight: bold;
